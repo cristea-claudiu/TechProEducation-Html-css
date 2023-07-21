@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="../assets/img/food-plate.jpg" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types</title>
+  </head>
+  <body>
+    <h2 id="home-page-link"><a href="/05-link-tag.html">Link page</a></h2>
+
+    <h1>Input Types</h1>
+    <form method="put" action="/login">
+      <input type="text" />text<br />
+      <input type="email" />email<br />
+      <input type="number" />number<br />
+      <input type="password" minlength="3" maxlength="10" required/>password<br />
+      <input type="search" />search<br />
+      <input type="url" />url<br />
+      <input type="tel" />tel<br />
+      <input type="hidden" />hidden<br />
+      <input type="checkbox" checked />checkbox<br />
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label> <br />
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label> <br />
+      <input type="checkbox" id="term" name="terms" />
+      <label for="term">i have read the terms and condition</label><br />
+      <input type="color" />color<br />
+      <input type="file" /><br />
+      <input type="range" value="90" />range<br />
+      <input type="date" />date<br />
+      <input type="time" />time<br />
+      <input type="datetime-local" />datetime-local<br />
+      <input type="month" />month<br />
+      <input type="week" />week<br />
+      <select name="countries" id="">
+        <option value="" disabled selected>Select a country</option>
+        <option value="1">Romania</option>
+        <option value="2">Turkey</option>
+        <option value="3">Italy</option>
+        <option value="4">China</option>
+        <option value="5">U.S.A.</option>
+        <option value="6">Germany</option>
+        <option value="7">France</option>
+      </select>
+      <br />
+      <select name="countries" id="" size="10" multiple>
+        <option value="" disabled selected>Select a country</option>
+        <option value="1">Romania</option>
+        <option value="2">Turkey</option>
+        <option value="3">Italy</option>
+        <option value="4">China</option>
+        <option value="5">U.S.A.</option>
+        <option value="6">Germany</option>
+        <option value="7">France</option>
+      </select>
+      <br />
+      <textarea name="" id="" cols="30" rows="10" minlength="10" maxlength="200"  required >About</textarea>
+
+      <input type="button" disabled value="button" />
+      <input type="submit" value="save" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>

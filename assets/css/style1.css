@@ -1,0 +1,27 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+p.para1{
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 5rem;
+    color: blue;
+}
+p {
+    
+    font-size: 2rem;
+}
+body{
+    background-color: aquamarine;
+}
+p.para3#param{
+    font-size: 4rem;
+    color: brown;
+}
