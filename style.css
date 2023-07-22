@@ -24,6 +24,10 @@ body{
 }
 #link-header-list{
     
+    
+    padding: 1rem ;
+}
+#link-header-list li{
     font-size: 1.5rem;
     width: 100%;
     margin: auto;
@@ -31,9 +35,6 @@ body{
     align-items: center;
     justify-content: space-around;
     min-height: 10vh;
-    padding: 1rem ;
-}
-#link-header-list li{
     padding: 0.5rem;
 }
 #home-page-link{
