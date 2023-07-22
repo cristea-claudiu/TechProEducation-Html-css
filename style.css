@@ -46,3 +46,10 @@ body{
     min-height: 10vh;
     padding: 1rem;
 }
+a:visited{
+    color: rgb(236, 6, 6);
+}
+a:hover{
+    color: beige;
+    background-color: black;
+}
