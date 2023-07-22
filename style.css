@@ -23,18 +23,19 @@ body{
     padding: 1rem;
 }
 #link-header-list{
-    
+    font-size: 1.5rem;
+    width: 100%;
+    margin: auto;
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
     
     padding: 1rem ;
 }
 #link-header-list li{
-    font-size: 1.5rem;
-    width: 100%;
-    margin: auto;
-    display: flexbox ;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 10vh;
+   
     padding: 0.5rem;
 }
 #home-page-link{
