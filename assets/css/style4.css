@@ -1,0 +1,17 @@
+*{
+    font-family: 'Bungee Spice', cursive;
+    font-weight: 400;  
+}
+
+h1{
+       
+    font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-decoration:dashed;
+  font-style: oblique;
+  
+}
+h1.fonts{
+    font-family: 'Bungee Spice', cursive;
+   text-decoration: line-through;
+}

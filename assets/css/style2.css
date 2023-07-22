@@ -1,0 +1,13 @@
+*{
+    color: blueviolet;
+}
+
+h1{
+    color:bisque ;
+}
+h1.title {
+ color: green ;
+}
+ .first-line{
+    color: brown;
+ }

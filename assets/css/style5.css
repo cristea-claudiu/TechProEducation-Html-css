@@ -1,0 +1,18 @@
+a:link{
+    color: rgb(255, 0, 255);
+}
+a:visited{
+    color: rgb(4, 76, 172);
+}
+a:hover{
+    color: beige;
+    background-color: black;
+}
+h1:hover{
+    color: azure;
+    background-color: black;
+}
+a:active{
+    color: rgba(6, 231, 231, 0.795);
+    background-color: rgb(255, 14, 14);
+}
