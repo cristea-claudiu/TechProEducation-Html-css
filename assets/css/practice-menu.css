@@ -56,3 +56,69 @@ nav.main-menu{
     color: white;
     background-color: black;
 }
+
+
+
+.flex-menu {
+    width: 500px;
+}
+
+.flex-menu ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.flex-menu-link{
+    background-color: rgb(198, 198, 198);
+    
+    margin: 10px 10px;
+    padding: 7px;
+    
+    border-radius: 100%;
+   
+}
+.flex-menu-link:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 55);
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display:  inline-block;
+}
+.menu ul{
+    list-style-type: '💀';
+    padding: 0px 7px;
+    display: none;
+    margin: 0;
+    margin-top: 10px;
+   
+}
+.menu:hover ul{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 15%;
+}
+.menu a:hover{
+    background-color: rgb(27, 14, 145);
+    color: rgb(255, 255, 255);
+}
+button{
+    background-color: rgb(98, 83, 155);
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px solid rgb(43, 40, 207);
+    border-radius: 40%;
+}
+button:hover{
+    background-color: rgb(27, 14, 145);
+    color: rgb(255, 255, 255);
+    
+}
+
