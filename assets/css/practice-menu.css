@@ -92,7 +92,7 @@ nav.menu a{
 }
 .menu ul{
     list-style-type: '💀';
-    padding: 0px 7px;
+    padding: 0px 12px;
     display: none;
     margin: 0;
     margin-top: 10px;
@@ -122,3 +122,47 @@ button:hover{
     
 }
 
+nav.menuP{
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+    }
+    nav.menuP ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    nav.menuP ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        border-left: 1px solid red;
+        display: inline-block;
+        padding: 5px 0;
+        width: 100px;
+        text-align: center;
+
+    }
+    nav.menuP ul li:first-child a{
+        border-left:none;
+
+    }
+    nav.menuP ul li a:hover{
+        color: black;
+        font-size: 2rem;
+       
+    }
+
+    nav.menuP ul li:first-child a::before{
+content: '<    ';
+color: brown;
+font-size: 3rem;
+    }
+    nav.menuP ul li:last-child a::after{
+        content: '    >';
+        color: brown;
+        font-size: 3rem;
+    }
