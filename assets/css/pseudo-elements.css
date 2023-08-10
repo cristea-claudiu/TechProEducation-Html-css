@@ -1,0 +1,31 @@
+h1{
+    color: blueviolet;
+}
+.firstletter::first-letter{
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
+.firstline::first-line{
+ font-size: 3rem;
+ color: bisque;
+}
+p::selection{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 80, 252);
+}
+
+ul.menu li::marker{
+    color: red;
+    font-size: 2rem;
+}
+
+.beforePseudo::before{
+    content: "before ";
+    color: red;
+    font-size: 2.5rem;
+}
+.beforePseudo::after{
+    content: " after";
+    color: red;
+    font-size: 2.5rem;
+}
