@@ -1,3 +1,36 @@
 h1{
     color: red;
 }
+
+.menu .link-menu:active{
+    color: rgb(0, 255, 128);
+}
+
+.menu .link-menu:hover{
+    color: rgb(4, 0, 255);
+}
+
+
+.menu .link-menu:visited{
+color: rgb(255, 187, 0);
+}
+.menu .link-menu:focus{
+    color: red;
+}
+
+.focus:focus{
+    outline: 1px solid red;
+}
+.check:checked{
+    outline: 5px solid red;
+}
+
+.menu li:first-child{
+    color: red;
+}
+.menu li:last-child{
+    color: blue;
+}
+.menu li:nth-child(4){
+    color: rgb(0, 255, 98);
+}
