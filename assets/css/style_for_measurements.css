@@ -1,0 +1,46 @@
+.box1{
+background-color: aqua;
+width: 4cm;
+}
+.box2{
+    background-color: brown;
+    width: 50%;
+    height: 80%;
+}
+.box3{
+    background-color: blueviolet;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.container{
+width: 500px;
+height: 500px;
+background-color: aqua;
+}
+.box4{
+    background-color: black;
+    width: 60%;
+    height: 50%;
+
+
+}
+.box5{
+    background-color: rgba(199, 24, 24, 0.856);
+    width: 60%;
+    height: 50%;
+
+}
+.viewport{
+    width: 50vw;
+    height: 50vh;
+    background-color: coral;
+}
+parent-font{
+font-size: 50px;
+}
+.child-font{
+font-size: 2em;
+}
+rem-font{
+    font-size: 2rem;
+}

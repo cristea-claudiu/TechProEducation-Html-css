@@ -1,0 +1,58 @@
+h1{
+    color: red;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+
+}
+nav.main-menu{
+    background-color: rgb(199, 197, 197);
+    width: 150px;
+    padding: 1px;
+}
+.main-menu-ul{
+    padding: 0;
+    list-style-type: '💀';
+    list-style-position: inside;
+}
+.main-menu-ul li{
+    margin: 20px 0px;
+
+}
+.main-menu-link{
+    padding: 5px;
+}
+
+.main-menu-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.navbar{
+    background-color: rgb(199, 197, 197);
+    width: 140px;
+    padding: 1px;
+    margin: 20px;
+    
+}
+.navbar ul{
+    padding: 0;
+    list-style-type: '💀';
+    list-style-position: inside;
+}
+.navbar ul li{
+    margin: 20px 0px;
+}
+.navbar ul li a{
+    padding: 5px;
+}
+.navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}

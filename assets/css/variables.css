@@ -1,0 +1,16 @@
+:root{
+    --color1: rgb(222,230,123);
+    --color2: rgb(0, 10, 156);
+    
+}
+
+
+h1{
+    color: var(--color1);
+}
+p{
+    color: rebeccapurple;
+}
+li{
+    color: var(--color2);
+}

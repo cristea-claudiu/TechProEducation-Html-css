@@ -1,0 +1,17 @@
+h1{
+    color: chocolate;
+}
+
+nav.navbar ul li{
+
+font-weight: 900;
+}
+nav li{
+    list-style-type: square;
+
+}
+
+.navbar li,
+.navbar2 li{
+list-style-type: upper-roman;
+}
