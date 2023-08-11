@@ -1,0 +1,62 @@
+
+h1{
+    color: red;
+}
+span.instagram::before{
+    font: var(--fa-font-brands);
+    content: "\f16d";
+    color: rgb(255, 0, 221);
+}
+span.facebook::before{
+    font: var(--fa-font-brands);
+    content: "\f09a";
+    color: blue;
+}
+span.twitter::before{
+    font: var(--fa-font-brands);
+    content: "\f099";
+    color: rgb(0, 119, 255);
+}
+span.linkedin::before{
+    font: var(--fa-font-brands);
+    content: "\f08c";
+    color: rgb(0, 81, 255);
+}
+.container{
+    width: 150px;
+}
+.container ul{
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+.container ul li{
+    border: 1px solid black;
+    margin: 4px 0;
+}
+
+.container ul li a span{
+    text-decoration: none;
+    background-color: rgba(133, 133, 133, 0.822);
+    color: azure;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#menuCheckbox{
+    display: none;
+}
+#menuCheckbox:checked + ul{
+    display: block;
+}
+
+.labelCheck{
+    cursor: pointer;
+    padding: 15px 15px 3px 15px;
+
+}
+.labelCheck:hover{
+    background-color: gray;
+}

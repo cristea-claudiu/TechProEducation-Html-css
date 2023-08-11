@@ -1,0 +1,26 @@
+h1{
+    color: red;
+}
+
+.box p {
+    color: blue;
+    font-weight: bold;
+}
+
+.box > p {
+    color: green;
+    font-weight: normal;
+}
+
+.box1+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+
+}
+
+div.box2 ~ a{
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+}

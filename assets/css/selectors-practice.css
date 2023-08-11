@@ -1,0 +1,49 @@
+*{
+color: darkcyan
+}
+h1{
+    color: red;
+}
+h2{
+    color: rebeccapurple;
+}
+section h1,
+section h2,
+section h3,
+section h4{
+    color: rgb(114, 95, 160);
+}
+
+section h2{
+    color: coral;
+}
+
+section:nth-child(8){
+   background-color: rgb(158, 153, 153);
+}
+.top-bar nav a{
+    color: burlywood;
+}
+section.top-bar img{
+    width: 160px;
+}
+
+div.social-media > a{
+    color: chocolate;
+}
+
+section.top-bar + section{ 
+    background-color: aquamarine;
+}
+
+div.box img ~ span{
+color: rgb(2, 114, 32);
+}
+
+div.box:hover img{
+    width: 210px;
+}
+
+div::before{
+    content: "☢";
+}

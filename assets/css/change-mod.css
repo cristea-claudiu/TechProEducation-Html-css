@@ -1,0 +1,27 @@
+h1{
+    color: red;
+}
+
+.box{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+.chek-mode{
+    display: none;
+}
+.chek-mode:checked +.box{
+    background-color: blue;
+}
+
+.change-label{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.change-label:hover{
+    background-color: lightgray;
+}
