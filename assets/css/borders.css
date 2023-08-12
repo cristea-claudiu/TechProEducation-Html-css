@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+.tittle1{
+    border: 5px dotted blue;
+    text-align: center;
+}
+.tittle2{
+    border-left: 10px solid rebeccapurple;
+    border-right:  10px solid rebeccapurple;
+    display: inline-block;
+    padding: 0 5px;
+}
+.tittle3{
+    border-radius: 20px;
+    background-color: rgb(170, 7, 7);
+    text-align: center;
+}
+.tittle4{
+    border: 10px double black;
+}
+.tittle5{
+    border: 10px ridge black;
+}
+.tittle6{
+    border: 10px groove black;
+}
+.tittle7{
+    border: 10px inset black;
+}
+.tittle8{
+    border: 10px outset black;
+}

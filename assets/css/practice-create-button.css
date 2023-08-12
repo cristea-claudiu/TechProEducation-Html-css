@@ -1,0 +1,37 @@
+
+:root{
+    --color1: rgb(35,226,61);
+    --color2: rgb(14,24,89);
+}
+h1{
+    color: var(--color2);
+}
+.buttons{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.buttons > button{
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 10px 15px;
+    flex: 0 1 100px;
+    border: 3px solid var(--color1);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.buttons .cut{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.buttons .new{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.buttons > button:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+    border-color: var(--color2);
+
+}
