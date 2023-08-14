@@ -1,0 +1,68 @@
+h1{
+    color: #ff0000;
+}
+*{
+    box-sizing: border-box;
+}
+
+.container{
+width: 1000px;
+height: 1000px;
+background-color: black;
+position: relative;
+}
+
+
+.box1, .box2, .box3{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: #ff0000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box2{
+    background-color: purple;
+    position: relative;
+    left: 100px;
+}
+.box3{
+    background-color: blue;
+}
+.search-div{
+    background-color: rgb(37, 37, 37);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 12px;
+    position: fixed;
+    top: 0;
+    right: 42%;
+    z-index: 1;
+}
+
+.search-div input{
+    background: none;
+    color: bisque;
+    border: none;
+    outline: none;
+    padding: 0 53px 0 5px;
+}
+.search-div button{
+    border-radius: 15px;
+    background-image:
+     linear-gradient(45deg, rgb(4, 0, 255), rgb(183, 0, 255),rgb(255, 0, 0));
+    border: none;
+    position: absolute;
+    right: 0.1px;
+    top: 2px;
+    bottom: 2px;
+    cursor:pointer;
+    }
+
+    .search-div button:hover{
+        background-image: linear-gradient(-40deg, rgb(4, 0, 255), rgb(183, 0, 255),rgb(255, 0, 0));
+    }
+
+
