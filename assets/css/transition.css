@@ -1,0 +1,86 @@
+h1{color: red;}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.box1{
+background-color: red;
+transition: background-color 1.5s ease-in-out 1s;
+/* transition: styleName time type delay */
+}
+.box1:hover{
+    background-color: aqua;
+}
+.box2{
+    background-color:green;
+    transition: transform 1s
+}
+.box2:hover{
+    transform: rotate(270deg);
+}
+.box3{
+    transition: transform 1.5s;
+    background-color:blue;
+}
+.box3:hover{
+    
+    transform: scale(1.5) rotate(360deg);
+}
+.box4{
+    background-color:yellow;
+ transition: all 1s;
+}
+.box4:hover{
+    background-color:rgb(0, 255, 179);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+nav.menu a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu{
+    display:  inline-block;
+}
+.menu ul{
+    list-style-type: '💀';
+    padding: 0px 12px;
+    opacity: 0;
+    margin: 0;
+    transition: all 1s ease-in;
+   
+}
+.menu:hover ul{
+    opacity: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 15%;
+}
+.menu a:hover{
+    background-color: rgb(27, 14, 145);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    
+}
+button{
+    background-color: rgb(98, 83, 155);
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px solid rgb(43, 40, 207);
+    border-radius: 30%;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: rgb(27, 14, 145);
+    
+}

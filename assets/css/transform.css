@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transform: translateX(50%);
+}
+
+img{
+    width: 500px;
+    transform: scale(.5)
+}

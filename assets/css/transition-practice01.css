@@ -1,0 +1,76 @@
+h1,h2{
+    color: rgb(255, 0, 0);
+    padding-left: 40px;
+}
+
+:root{
+ --color1: #FF6000;
+ --color2: #454545;
+ --color3: #FFA559;
+ --color4: #FFE6C7;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main{
+    padding-left: 70px;
+}
+
+nav.left-menu{
+    background-color: var(--color1);
+    position: absolute;
+    left: -110px;
+    top: 0;
+    bottom: 0;
+    transition: left 1s;
+}
+nav.left-menu .tittle{
+    background-color: var(--color2);
+    color: var(--color4);
+    padding: 10px 10px ;
+   
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+
+}
+nav.left-menu .tittle label{
+    cursor: pointer;
+    transition: transform 1s;
+
+}
+nav.left-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 50px 0 20px;
+    line-height: 30px;
+}
+nav.left-menu ul a{
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 600;
+    display: block;
+    transition: transform .5s;
+
+}
+nav.left-menu ul a:hover{
+color: var(--color4);
+transform: translateX(10px);
+}
+
+#checkMenu{
+    display: none;
+
+}
+#checkMenu:checked +nav{
+    left: 0;
+}
+#checkMenu:checked + nav label {
+    transform: rotate(-900deg);
+}
+
